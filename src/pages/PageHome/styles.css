@@ -1,0 +1,34 @@
+.profile-container{
+    height: 100vh;
+}
+.Menus{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 10%;
+   width: 90%;
+   height: 20vh;
+   margin-top: 5%;
+   margin-left: 5%;
+   padding: 0;
+   text-align: center;
+   align-items: center;
+   border: 0px solid #000;
+}
+
+.buttons{
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(177, 186, 194);
+    border-radius: 10px;
+    padding-top: 10%;
+    cursor: pointer;
+  
+}
+
+.buttons:hover{
+    border: 5px solid rgb(226, 90, 10);
+}
+
+

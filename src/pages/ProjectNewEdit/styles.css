@@ -1,0 +1,141 @@
+
+.listUser{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 10fr 2fr;
+    grid-gap: 0px;
+    border-left: 2px solid rgb(214, 108, 9);
+    height: 30px;
+}
+.listHead{
+    /*background-color: rgb(100, 121, 200,0.5);*/
+    height: 30px;
+    padding: 5px 0px 0px 2px;
+    vertical-align: center;
+    color: rgb(0,0,0, 0.5);
+    font-size: 18px;
+    
+}
+.listItem{
+    background-color: rgb(123,104,238, 0.2);
+    border: 5px solid rgb(255, 255, 255);
+    height: 40px;
+    padding: 2px 0px 0px 2px;
+    vertical-align: center;
+    color: rgb(0,0,0, 0.8);
+    font-size: 16px;
+    
+}
+.TabTitle{
+    color:rgb(255, 87, 51 );
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: aquamarine;
+    font-size: 20px;
+}
+.groupProj{
+    display: inline;
+   background: #f0f0f0;
+   width: 70%;
+   margin-left: 15%;
+   margin-top: 5%;
+   line-height: 30px;
+   padding: 1em;
+   border: 2px solid #41414d;
+   border-radius: 10px;
+}
+.groupProj input{
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.groupProj textarea{
+    width: 100%;
+    resize: vertical;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+ 
+
+}
+.groupProj select{
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.groupProj button{
+    width: 30%;
+    height: 30px;
+    margin: 1em;
+    background-color: dodgerblue;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+.groupProj button:hover{
+    background-color: royalblue;
+}
+.groupProj span{
+    color:rgb(255, 87, 51 );
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: aquamarine;
+    font-size: 20px; 
+}
+.error-msg{
+    color:rgb(255, 0, 0 );
+    font-weight: 400;
+    text-decoration: aquamarine;
+    font-size: 12px;  
+}
+.respSetor{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+
+.indicador{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap: 10%;
+}
+
+.indicador input{
+    width: 40%;
+}
+.indicador label{
+    display: block;
+}
+
+.dates{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    column-gap: 20px;
+}
+
+.dates input{
+    width: 50%;
+}
+.datesblock label{
+    display: block;
+}
+
+.custo label{
+    display: block;
+}
+.custo input{
+    width: 15%;
+}
