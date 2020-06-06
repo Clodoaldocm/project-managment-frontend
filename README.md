@@ -8,8 +8,6 @@ A configuração de pastas e base de código foi a mesma utilizada pela Rocketse
 
 O backend desta aplicação está em: [project-managment-backend](https://github.com/Clodoaldocm/project-managment-backend)
 
-A aplicação backend foi colocado num servidor Heroko e o frontend num servidor aws. Para ver a aplicação funcionado:
+A aplicação backend foi colocado num servidor Heroku e o frontend num servidor aws. Para ver a aplicação funcionado:
 
-[Gerenciamento de Projetos](http://projectsman.s3-website.us-east-1.amazonaws.com/) (na primeira vez que clica em um dos botões demora um pouco para aparecer os dados, pois o heroku coloca o backend em standby, mas depois vai aparece normal)
-
-
+[Gerenciamento de Projetos](http://projectsman.s3-website.us-east-1.amazonaws.com/) *(na primeira vez que clica em um dos botões demora um pouco para aparecer os dados, pois o heroku coloca o backend em standby, mas depois vai aparecer normal)*
